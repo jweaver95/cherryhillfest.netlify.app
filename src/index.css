@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --resilience-red: #B22222;
+    --waterfront-emerald: #2E8B57;
+    --heritage-gold: #D4AF37;
+    --parchment-white: #F5F5DC;
+    --deep-earth: #4A3728;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  body {
+    @apply font-sans;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    @apply bg-gradient-to-br from-[#4A3728] via-[#B22222] to-[#2E8B57];
+  }
+
+  .resilience-text {
+    @apply text-[#B22222];
+  }
+
+  .emerald-text {
+    @apply text-[#2E8B57];
+  }
+
+  .gold-text {
+    @apply text-[#D4AF37];
+  }
+
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  .card-resilience {
+    @apply bg-gradient-to-br from-[#B22222]/10 to-[#D4AF37]/10 border border-[#B22222]/20 rounded-2xl;
+  }
+
+  .text-shadow-lg {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6);
+  }
+}
