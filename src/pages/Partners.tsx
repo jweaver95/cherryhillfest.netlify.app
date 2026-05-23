@@ -273,33 +273,52 @@ export function Partners() {
             </p>
           </div>
 
-          <div className="bg-gray-50 rounded-3xl p-10">
-            <div className="text-center mb-10">
-              <span className="inline-block bg-gradient-to-r from-amber-600 to-red-600 text-white px-6 py-2 rounded-full font-bold text-lg">
-                WBAL
-              </span>
+          <div className="space-y-8">
+            <div className="bg-gray-50 rounded-3xl p-10">
+              <div className="text-center mb-10">
+                <span className="inline-block bg-gradient-to-r from-amber-600 to-red-600 text-white px-6 py-2 rounded-full font-bold text-lg">
+                  WBAL
+                </span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center justify-items-center">
+                <div className="flex items-center justify-center h-28 w-full">
+                  <img
+                    src="/WBAL_Primary-Stacked_FullColor-Blue_RGB_(4).png"
+                    alt="WBAL-TV 11"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <div className="flex items-center justify-center h-28 w-full">
+                  <img
+                    src="/HTVRadio_WBAL-News-Radio-Station-Primary_FullColor-Dark_RGB_(2) copy.png"
+                    alt="WBAL News Radio"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <div className="flex items-center justify-center h-28 w-full">
+                  <img
+                    src="/htv-98rock-main-logo.png"
+                    alt="98 Rock 97.9 Baltimore"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center justify-items-center">
-              <div className="flex items-center justify-center h-28 w-full">
-                <img
-                  src="/WBAL_Primary-Stacked_FullColor-Blue_RGB_(4).png"
-                  alt="WBAL-TV 11"
-                  className="max-h-full max-w-full object-contain"
-                />
+
+            <div className="bg-gray-50 rounded-3xl p-10">
+              <div className="text-center mb-10">
+                <span className="inline-block bg-gradient-to-r from-blue-700 to-orange-500 text-white px-6 py-2 rounded-full font-bold text-lg">
+                  WEAA
+                </span>
               </div>
-              <div className="flex items-center justify-center h-28 w-full">
-                <img
-                  src="/HTVRadio_WBAL-News-Radio-Station-Primary_FullColor-Dark_RGB_(2) copy.png"
-                  alt="WBAL News Radio"
-                  className="max-h-full max-w-full object-contain"
-                />
-              </div>
-              <div className="flex items-center justify-center h-28 w-full">
-                <img
-                  src="/htv-98rock-main-logo.png"
-                  alt="98 Rock 97.9 Baltimore"
-                  className="max-h-full max-w-full object-contain"
-                />
+              <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center h-40 w-64">
+                  <img
+                    src="/50th_Anniv_3C.png"
+                    alt="WEAA 88.9 FM – Morgan State University"
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
               </div>
             </div>
           </div>
