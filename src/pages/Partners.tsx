@@ -52,7 +52,7 @@ const currentPartners = [
     tier: 'Bronze',
     logo_url: '/Cherry_Hill_Community_Coalition_(CHCC)_Logo.jpeg',
     website: '',
-    description: '"Speaking with one voice and serving the community"',
+    description: '',
     order_index: 6,
   },
 ];
@@ -225,7 +225,7 @@ export function Partners() {
                           key={partner.id}
                           className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all"
                         >
-                          <div className="h-32 flex items-center justify-center mb-6">
+                          <div className={`${tier.name === 'Bronze' ? 'h-48' : 'h-32'} flex items-center justify-center mb-6`}>
                             {partner.logo_url ? (
                               <img
                                 src={partner.logo_url}
