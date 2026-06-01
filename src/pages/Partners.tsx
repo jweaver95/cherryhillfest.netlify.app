@@ -297,7 +297,7 @@ export function Partners() {
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
-                <div className="flex items-center justify-center h-28 w-full">
+                <div className="flex items-center justify-center h-40 w-full">
                   <img
                     src="/HTVRadio_WBAL-News-Radio-Station-Primary_FullColor-Dark_RGB_(2) copy.png"
                     alt="WBAL News Radio"
