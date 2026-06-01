@@ -235,7 +235,7 @@ export function Home() {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <p className="text-[#4A3728] text-base leading-relaxed italic flex-1 mb-4">
-                  "Our arts matter. Black arts matter, and I'm so happy to be a supporter of this amazing event."
+                  "Our arts matter. Black arts matter, and I'm so happy to be a supporter of this amazing event!"
                 </p>
                 <div>
                   <p className="font-bold text-[#4A3728]">Brooke Lierman</p>
