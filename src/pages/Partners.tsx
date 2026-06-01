@@ -46,6 +46,15 @@ const currentPartners = [
     description: '',
     order_index: 5,
   },
+  {
+    id: 'chcc-01',
+    name: 'Cherry Hill Community Coalition',
+    tier: 'Bronze',
+    logo_url: '/Cherry_Hill_Community_Coalition_(CHCC)_Logo.jpeg',
+    website: '',
+    description: '"Speaking with one voice and serving the community"',
+    order_index: 6,
+  },
 ];
 
 const tiers = [
