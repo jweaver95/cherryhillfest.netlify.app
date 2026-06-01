@@ -20,9 +20,9 @@ export function Navigation() {
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-28">
           <Link to="/" className="flex items-center gap-2 shrink-0">
-            <img src="/CHWF_logo_generic copy.png" alt="Cherry Hill Arts & Music Waterfront Festival logo" className="h-20 w-auto" />
+            <img src="/CHWF_logo_generic copy.png" alt="Cherry Hill Arts & Music Waterfront Festival logo" className="h-24 w-auto" />
             <span className="hidden lg:block text-lg font-bold whitespace-nowrap tracking-tight" style={{ color: '#65a30d' }}>
               Cherry Hill Arts and Music Waterfront Festival
             </span>
