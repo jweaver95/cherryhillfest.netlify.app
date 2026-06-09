@@ -122,7 +122,7 @@ export function Home() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div className="bg-gradient-to-br from-[#D4AF37]/20 to-[#B22222]/10 rounded-2xl p-8 border-2 border-[#D4AF37]">
               <div className="text-5xl font-serif font-black text-[#D4AF37] mb-4">250</div>
               <h3 className="text-2xl font-serif font-bold text-[#4A3728] mb-3">America's 250th</h3>
@@ -144,6 +144,14 @@ export function Home() {
               <h3 className="text-2xl font-serif font-bold text-[#4A3728] mb-3">Cherry Hill's Legacy</h3>
               <p className="text-[#4A3728] leading-relaxed">
                 Honoring the pioneering families of 1945 who built a resilient community that stands strong today.
+              </p>
+            </div>
+
+            <div className="bg-gradient-to-br from-[#D4AF37]/20 to-[#2E8B57]/10 rounded-2xl p-8 border-2 border-[#D4AF37]">
+              <div className="text-5xl font-serif font-black text-[#D4AF37] mb-4">10</div>
+              <h3 className="text-2xl font-serif font-bold text-[#4A3728] mb-3">Festival's 10th Anniversary</h3>
+              <p className="text-[#4A3728] leading-relaxed">
+                A decade of the Cherry Hill Arts &amp; Music Waterfront Festival — celebrating art, culture, and community at the water's edge.
               </p>
             </div>
           </div>
