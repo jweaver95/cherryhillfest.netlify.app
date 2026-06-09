@@ -1,6 +1,6 @@
 import { Award, Star, Check, Mail } from 'lucide-react';
 
-const currentPartners = [
+const currentPartners: { id: string; name: string; tier: string; logo_url: string; website: string; description: string; order_index: number; dark_bg?: boolean }[] = [
   {
     id: '9c78fd04-fa27-4261-8ed4-aefaaff73e9d',
     name: 'South Baltimore Gateway Partnership',
@@ -50,10 +50,11 @@ const currentPartners = [
     id: 'sl-01',
     name: 'Switching Lanes Adult & Youth Institute',
     tier: 'Gold',
-    logo_url: '/Switching_Lanes_Adult_&_Youth_Institute_Logo.jpg',
+    logo_url: '/Switching_Lanes_Adult_%26_Youth_Institute_Logo.jpg',
     website: '',
     description: '',
     order_index: 6,
+    dark_bg: true,
   },
   {
     id: 'mhh-01',
@@ -86,7 +87,7 @@ const currentPartners = [
     id: 'mm-01',
     name: 'Mighty Mark',
     tier: 'Bronze',
-    logo_url: '/Mighty_Mark_Logo_Black_HQ-PNG-]_(1).png',
+    logo_url: '/Mighty_Mark_Logo_Black_HQ-PNG-%5D_(1).png',
     website: '',
     description: '',
     order_index: 10,
@@ -261,7 +262,7 @@ export function Partners() {
                           key={partner.id}
                           className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all"
                         >
-                          <div className={`${tier.name === 'Bronze' ? 'h-48' : 'h-32'} flex items-center justify-center mb-6`}>
+                          <div className={`${tier.name === 'Bronze' ? 'h-48' : 'h-32'} flex items-center justify-center mb-6 rounded-xl ${partner.dark_bg ? 'bg-gray-900 p-3' : ''}`}>
                             {partner.logo_url ? (
                               <img
                                 src={partner.logo_url}
