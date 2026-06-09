@@ -50,11 +50,10 @@ const currentPartners: { id: string; name: string; tier: string; logo_url: strin
     id: 'sl-01',
     name: 'Switching Lanes Adult & Youth Institute',
     tier: 'Gold',
-    logo_url: '/Switching_Lanes_Adult_%26_Youth_Institute_Logo.jpg',
+    logo_url: '/Switching_Lanes_logo_(white_background).png',
     website: '',
     description: '',
     order_index: 6,
-    dark_bg: true,
   },
   {
     id: 'mhh-01',
