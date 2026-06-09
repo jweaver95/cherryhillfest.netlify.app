@@ -82,7 +82,7 @@ export function Home() {
 
       <CountdownTimer />
 
-      <section className={`py-20 ${highContrast ? 'bg-black text-white' : 'bg-[#F5F5DC]'}`}>
+      <section className={`pt-20 pb-10 ${highContrast ? 'bg-black text-white' : 'bg-[#F5F5DC]'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className={`text-3xl font-serif font-bold mb-4 ${highContrast ? 'text-white' : 'text-[#4A3728]'}`}>
@@ -111,7 +111,7 @@ export function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-white">
+      <section className="pt-10 pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-[#4A3728] mb-4">
